@@ -1,0 +1,89 @@
+
+Project Requirements - Single Page Application (SPA) with JSON-based Content, Smooth Transitions, and Modern Design
+
+Overview:
+We are building a modern single-page application (SPA) with a focus on clean design, smooth transitions, and content that can be easily managed without editing core .tsx files. The goal is to separate content from structure by keeping all textual and static data in a JSON file located in the public folder. This makes updates quick and scalable. The SPA will also feature GSAP-based animations and SwiperJS for fluid, interactive transitions.
+
+---
+
+Core Components & Architecture:
+
+1. **Content Management**
+   - All web content (hero text, navigation, footer, sections, etc.) stored in a `content.json` file inside the `public/` folder.
+   - JSON structured with keys for each section (hero, about, services, testimonials, contact, etc.).
+   - The application imports this JSON at runtime and populates UI components dynamically.
+   - Advantage: updating copy or structure doesn’t require editing `.tsx` files.
+
+2. **Application Architecture**
+   - Framework: React + TypeScript + Vite (or Next.js if SSR needed in future).
+   - SPA routing handled internally (no page reloads).
+   - Component-driven structure with reusable, styled components for sections.
+   - File structure should be clean and modular (components/, hooks/, utils/, styles/, assets/).
+
+3. **Styling & Layout (Kevin Powell approach)**
+   - CSS Modules or TailwindCSS for utility-first workflow.
+   - Grid + Flexbox for fluid layouts.
+   - Responsive design for mobile-first experience.
+   - Use CSS custom properties for colors, spacing, and typography scales.
+   - Typography hierarchy (fluid type scaling, clamp() usage).
+   - Accessibility-focused (semantic HTML, ARIA roles where needed).
+
+4. **Animations & Transitions**
+   - GSAP for micro-interactions and smooth section transitions (fade-in, slide-up, parallax effects).
+   - Page load animation (staggered text/element reveal).
+   - Hover states with subtle motion (buttons, cards).
+   - Section transitions powered by SwiperJS (swiping between major sections like hero → about → services → contact).
+   - Smooth scroll with inertia.
+
+5. **UI/UX Components**
+   - **Header/NavBar**: sticky header with scroll-based styling change.
+   - **Hero Section**: large typography, background image/video support, GSAP stagger reveal.
+   - **About Section**: split layout (image + text), smooth fade-in.
+   - **Services Section**: grid-based cards with hover animations.
+   - **Testimonials/Carousel**: SwiperJS carousel with smooth swipe + autoplay.
+   - **Contact Section**: dynamic form (content pulled from JSON), with form validation and submit animation.
+   - **Footer**: minimal, links pulled from JSON.
+
+6. **Performance & Best Practices**
+   - Lazy loading for images/components.
+   - Preloading fonts and key assets.
+   - Use modern image formats (WebP/AVIF).
+   - SEO optimizations: proper meta tags, alt text, Open Graph tags.
+   - Lighthouse performance score target: 90+.
+
+7. **Developer Experience**
+   - All content lives in `public/content.json`.
+   - Simple utility function (e.g., `useContent(sectionKey)`) to fetch the correct JSON section for each component.
+   - Easy hot-reload with Vite or Next.js.
+   - Clear naming conventions for components and JSON keys.
+
+---
+
+File Structure Example:
+/public
+  └── content.json
+/src
+  ├── components/
+  │   ├── Hero.tsx
+  │   ├── About.tsx
+  │   ├── Services.tsx
+  │   ├── Testimonials.tsx
+  │   ├── Contact.tsx
+  │   └── Footer.tsx
+  ├── hooks/
+  │   └── useContent.ts
+  ├── styles/
+  │   └── globals.css
+  ├── App.tsx
+  └── main.tsx
+
+---
+
+Next Steps:
+- Create the `content.json` with placeholder data for all sections.
+- Scaffold the SPA with React + TypeScript.
+- Implement dynamic content loading from JSON.
+- Add SwiperJS-based transitions between sections.
+- Enhance with GSAP animations (entry, hover, scroll effects).
+- Apply Kevin Powell-inspired CSS design system (fluid, accessible, beautiful).
+
