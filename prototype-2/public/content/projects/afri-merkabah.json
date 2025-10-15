@@ -2,11 +2,11 @@
   "uid": "afri-merkabah",
   "title": "AfriMerkabah",
   "project_image": {
-    "url": "/images/afri-merkabah-home.png",
+  "url": "/images/projects/afri-merkabah-home.png",
     "alt": "AfriMerkabah tourism platform dashboard"
   },
   "hero_image": {
-    "url": "/images/afri-merkabah-home.png",
+  "url": "/images/projects/afri-merkabah-home.png",
     "alt": "AfriMerkabah tourism platform hero"
   },
   "description": [
@@ -43,7 +43,7 @@
   },
   "technologies": ["Next.js 15", "React 19", "TypeScript", "Django 5.2", "PostgreSQL", "PostGIS", "Tailwind CSS", "JWT"],
   "meta_image": {
-    "url": "/images/afri-merkabah-meta.png",
+  "url": "/images/projects/afri-merkabah-meta.png",
     "alt": "AfriMerkabah Adventures - TechX KE"
   }
 }

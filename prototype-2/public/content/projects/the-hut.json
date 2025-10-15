@@ -2,11 +2,11 @@
   "uid": "the-hut",
   "title": "The Hut",
   "project_image": {
-    "url": "/images/the-hut-hero.png",
+  "url": "/images/projects/the-hut-hero.png",
     "alt": "The Hut portfolio landing"
   },
   "hero_image": {
-    "url": "/images/the-hut-hero.png",
+  "url": "/images/projects/the-hut-hero.png",
     "alt": "The Hut hero section"
   },
   "description": [
@@ -40,7 +40,7 @@
     "Tailwind CSS"
   ],
   "meta_image": {
-    "url": "/images/the-hut-hero.png",
+  "url": "/images/projects/the-hut-hero.png",
     "alt": "The Hut – Portfolio"
   }
 }

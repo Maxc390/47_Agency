@@ -40,32 +40,32 @@
     {
       "name": "Samuel",
       "role": "Tech Lead",
-      "image": { "url": "/images/sam-wainaina.jpeg", "alt": "Samuel - Founder & Tech Lead" }
+      "image": { "url": "/images/team/sam-wainaina.jpeg", "alt": "Samuel - Founder & Tech Lead" }
     },
     {
       "name": "Keith",
       "role": "Backend Engineer",
-      "image": { "url": "/images/keith-kareithi.jpeg", "alt": "Keith - Full-Stack Developer" }
+      "image": { "url": "/images/team/keith-kareithi.jpeg", "alt": "Keith - Full-Stack Developer" }
     },
     {
       "name": "Judd",
       "role": "Designer & Frontend Engineer",
-      "image": { "url": "/images/judd-odoyo.jpeg", "alt": "Judd - UI/UX Designer" }
+      "image": { "url": "/images/team/judd-odoyo.jpeg", "alt": "Judd - UI/UX Designer" }
     },
     {
       "name": "Eric",
       "role": "DevOps Engineer",
-      "image": { "url": "/images/eric-kahindi.jpeg", "alt": "Eric - Backend Engineer" }
+      "image": { "url": "/images/team/eric-kahindi.jpeg", "alt": "Eric - Backend Engineer" }
     },
     {
       "name": "PH",
       "role": "Full Stack Engineer",
-      "image": { "url": "/images/ph-magutu.jpg", "alt": "PH - DevOps Engineer" }
+      "image": { "url": "/images/team/ph-magutu.jpg", "alt": "PH - DevOps Engineer" }
     },
     {
       "name": "Maxwell",
       "role": "AWS Certified Cloud Engineer",
-      "image": { "url": "/images/max-chanzu.jpeg", "alt": "Maxwell - Frontend Developer" }
+      "image": { "url": "/images/team/max-chanzu.jpeg", "alt": "Maxwell - Frontend Developer" }
     }
   ],
   "meta_title": "About | TechX KE",

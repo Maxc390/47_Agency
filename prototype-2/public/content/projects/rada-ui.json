@@ -2,11 +2,11 @@
   "uid": "rada-ui",
   "title": "RADA",
   "project_image": {
-    "url": "/images/rada-ui.png",
+  "url": "/images/projects/rada-ui.png",
     "alt": "RADA user interface dashboard"
   },
   "hero_image": {
-    "url": "/images/rada-ui.png",
+  "url": "/images/projects/rada-ui.png",
     "alt": "RADA user interface hero"
   },
   "description": [
@@ -43,7 +43,7 @@
   },
   "technologies": ["Next.js 15", "React 19", "TypeScript", "PyTorch", "TensorFlow", "spaCy", "NLTK", "Tailwind CSS", "Zustand", "NextAuth"],
   "meta_image": {
-    "url": "/images/rada-ui-meta.png",
+  "url": "/images/projects/rada-ui-meta.png",
     "alt": "RADA User Interface - TechX KE"
   }
 }
