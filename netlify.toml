@@ -1,10 +1,7 @@
 [build]
-  base = "prototype-2"
-  command = "CI='' npm run build"
-  publish = ".next"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  # run everything from the repo root to avoid base-dir mismatches on Netlify
+  command = "CI='' bash -lc 'cd prototype-2 && npm ci && npm run build'"
+  publish = "prototype-2/.next"
 
 [build.environment]
   NODE_VERSION = "22.20.0"
