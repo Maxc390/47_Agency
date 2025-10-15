@@ -225,19 +225,18 @@ class NextDevManager {
         env.FORCE_COLOR = '1';
         env.CI = 'false';
         
-        let devArgs = ['run', 'dev'];
-        
+        let command = 'npm';
+        let args = ['run', 'dev'];
         if (mode === 'stable') {
             this.log('info', 'Running with Turbopack disabled for stability');
-            env.TURBO_CI = '0';
             env.NEXT_TELEMETRY_DISABLED = '1';
-            env.NEXT_CACHE_DISABLED = '1';
-            devArgs.push('--', '--turbo=false');
+            command = 'npx';
+            args = ['--yes', 'next', 'dev'];
         } else {
             this.log('info', 'Running with default Next.js settings');
         }
         
-        const devProcess = spawn('npm', devArgs, {
+        const devProcess = spawn(command, args, {
             env,
             stdio: 'inherit',
             cwd: this.projectRoot

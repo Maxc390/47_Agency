@@ -131,10 +131,9 @@ start_dev_server() {
     
     if [ "$mode" = "stable" ]; then
         log_info "Running with Turbopack disabled for stability"
-        export TURBO_CI=0
         export NEXT_TELEMETRY_DISABLED=1
-        # Run without turbopack
-        npm run dev -- --turbo=false
+        # Invoke Next.js directly without the --turbopack flag
+        npx --yes next dev
     else
         log_info "Running with default Next.js settings"
         npm run dev

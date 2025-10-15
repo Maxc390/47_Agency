@@ -24,7 +24,7 @@ export const ProjectDisplay = ({ project }: ProjectDisplayProps) => {
           alt={project.hero_image?.alt || project.project_image?.alt || ""}
           className="object-cover opacity-40 md:opacity-100"
           fill
-          width={1150}
+          sizes="100vw"
           quality={90}
         />
       </div>
