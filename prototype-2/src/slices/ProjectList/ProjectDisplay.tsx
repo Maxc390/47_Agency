@@ -22,10 +22,17 @@ export const ProjectDisplay = ({ project }: ProjectDisplayProps) => {
         <Image
           src={project.hero_image?.url || project.project_image?.url || ""}
           alt={project.hero_image?.alt || project.project_image?.alt || ""}
-          className="object-cover opacity-40 md:opacity-100"
+          className="object-cover"
           fill
           sizes="100vw"
           quality={90}
+        />
+        {/* Dim overlay */}
+        <div className="absolute inset-0 bg-black/55" />
+        {/* Noise overlay */}
+        <div
+          className="pointer-events-none absolute inset-0 opacity-15 mix-blend-overlay"
+          style={{ backgroundImage: "url(/noisetexture.jpg)", backgroundSize: "auto", backgroundRepeat: "repeat" }}
         />
       </div>
 
