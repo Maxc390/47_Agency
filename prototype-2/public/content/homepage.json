@@ -68,90 +68,9 @@
           }
         ],
         "projects": [
-          {
-            "project": {
-              "id": "afri-merkabah",
-              "uid": "afri-merkabah",
-              "title": "AfriMerkabah",
-              "category": "Tourism Platform",
-              "image": {
-                "url": "/images/afri-merkabah.png",
-                "alt": "AfriMerkabah tourism platform dashboard"
-              },
-              "description": [
-                {
-                  "type": "paragraph",
-                  "content": {
-                    "text": "Modern tourism platform connecting travelers with authentic Kenyan experiences - from wildlife safaris to cultural immersion.",
-                    "spans": []
-                  },
-                  "direction": "ltr"
-                }
-              ],
-              "technologies": ["Next.js 15", "React 19", "Django 5.2", "PostgreSQL", "PostGIS"],
-              "live_link": {
-                "text": "View It Live",
-                "url": "https://www.afrimerkabah.com",
-                "variant": "Secondary"
-              }
-            }
-          },
-          {
-            "project": {
-              "id": "rada-ui",
-              "uid": "rada-ui",
-              "title": "RADA",
-              "category": "NLP Platform",
-              "image": {
-                "url": "/images/rada-ui.png",
-                "alt": "RADA user interface dashboard"
-              },
-              "description": [
-                {
-                  "type": "paragraph",
-                  "content": {
-                    "text": "Comprehensive UI for climate and weather data analysis with advanced NLP capabilities and text-to-speech integration.",
-                    "spans": []
-                  },
-                  "direction": "ltr"
-                }
-              ],
-              "technologies": ["Next.js 15", "React 19", "PyTorch", "TensorFlow", "spaCy"],
-              "live_link": {
-                "text": "View It Live",
-                "url": "https://88-rada.vercel.app",
-                "variant": "Secondary"
-              }
-            }
-          },
-          {
-            "project": {
-              "id": "the-hut",
-              "uid": "the-hut",
-              "title": "The Hut",
-              "category": "Portfolio Website",
-              "image": {
-                "url": "/images/the-hut-hero.png",
-                "alt": "The Hut portfolio landing"
-              },
-              "description": [
-                {
-                  "type": "paragraph",
-                  "content": {
-                    "text": "A refined portfolio experience with smooth transitions, strong typography and an elegant dark aesthetic.",
-                    "spans": []
-                  },
-                  "direction": "ltr"
-                }
-              ],
-              "technologies": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS"],
-              "live_link": {
-                "text": "View It Live",
-                "url": "https://portfolio-hut.vercel.app/",
-                "variant": "Secondary"
-              }
-            }
-          }
+          { "project": { "id": "afri-merkabah", "uid": "afri-merkabah", "title": "AfriMerkabah", "category": "Tourism Platform", "image": { "url": "/images/afri-merkabah-home.png", "alt": "AfriMerkabah tourism platform" }, "description": [ { "type": "paragraph", "content": { "text": "Modern tourism platform connecting travelers with authentic Kenyan experiences.", "spans": [] }, "direction": "ltr" } ], "technologies": ["Next.js 15", "React 19", "Django 5.2", "PostgreSQL", "PostGIS"], "live_link": { "text": "View It Live", "url": "https://www.afrimerkabah.com", "variant": "Secondary" } } },
+          { "project": { "id": "rada-ui", "uid": "rada-ui", "title": "RADA", "category": "NLP Platform", "image": { "url": "/images/rada-ui.png", "alt": "RADA user interface" }, "description": [ { "type": "paragraph", "content": { "text": "Climate and weather data analysis with advanced NLP and TTS.", "spans": [] }, "direction": "ltr" } ], "technologies": ["Next.js 15", "React 19", "PyTorch", "TensorFlow", "spaCy"], "live_link": { "text": "View It Live", "url": "https://88-rada.vercel.app", "variant": "Secondary" } } },
+          { "project": { "id": "the-hut", "uid": "the-hut", "title": "The Hut", "category": "Portfolio Website", "image": { "url": "/images/the-hut-hero.png", "alt": "The Hut portfolio" }, "description": [ { "type": "paragraph", "content": { "text": "A refined portfolio experience with smooth transitions and strong typography.", "spans": [] }, "direction": "ltr" } ], "technologies": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS"], "live_link": { "text": "View It Live", "url": "https://portfolio-hut.vercel.app/", "variant": "Secondary" } } }
         ]
       }
     },
