@@ -13,7 +13,7 @@ async function readContentFile<T>(filePath: string): Promise<T> {
   
   // Check cache first in production
   if (process.env.NODE_ENV === 'production' && contentCache.has(filePath)) {
-    return contentCache.get(filePath);
+    return contentCache.get(filePath) as T;
   }
 
   try {

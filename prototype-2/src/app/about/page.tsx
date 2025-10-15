@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { getAboutPage, getSettings, asImageSrc } from "@/lib/content";
 import { Bounded } from "@/components/Bounded";
+import { ProjectListSlice, HeroSlice, CallToActionSlice, ProductFeatureSlice, ScrollTextSlice } from "@/types/content";
 import { RichText, PrismicText } from "@/components/RichText";
 import { components } from "@/slices";
 
@@ -65,10 +66,27 @@ export default async function Page() {
 
       {/* Additional Slices */}
       {page.slices && page.slices.map((slice, index) => {
-        const Component = components[slice.slice_type as keyof typeof components];
-        if (!Component) return null;
-        
-        return <Component key={index} slice={slice} />;
+        if (slice.slice_type === 'project_list') {
+          const Component = components.project_list;
+          return <Component key={index} slice={slice as ProjectListSlice} index={index} />;
+        }
+        if (slice.slice_type === 'hero') {
+          const Component = components.hero;
+          return <Component key={index} slice={slice as HeroSlice} />;
+        }
+        if (slice.slice_type === 'call_to_action') {
+          const Component = components.call_to_action;
+          return <Component key={index} slice={slice as CallToActionSlice} />;
+        }
+        if (slice.slice_type === 'product_feature') {
+          const Component = components.product_feature;
+          return <Component key={index} slice={slice as ProductFeatureSlice} />;
+        }
+        if (slice.slice_type === 'scroll_text') {
+          const Component = components.scroll_text;
+          return <Component key={index} slice={slice as ScrollTextSlice} />;
+        }
+        return null;
       })}
     </div>
   );

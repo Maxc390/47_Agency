@@ -42,7 +42,7 @@ export default function TermsPage() {
       </FadeIn>
 
       <div className="prose prose-invert max-w-none prose-headings:font-display prose-headings:tracking-tight">
-        <FadeIn className="mb-12" id="overview">
+        <FadeIn className="mb-12">
           <h2 id="overview" className="text-2xl">Overview</h2>
           <p>
             By accessing or using our services, you agree to these terms. If you’re
@@ -51,7 +51,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="services">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Services</h2>
           <p>
             We provide digital design and engineering services, including AI‑enabled
@@ -60,7 +60,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="acceptable-use">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Acceptable use</h2>
           <ul>
             <li>Don’t break the law or infringe others’ rights using our services.</li>
@@ -69,7 +69,7 @@ export default function TermsPage() {
           </ul>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="ai-features">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">AI features</h2>
           <p>
             AI outputs can be probabilistic and may contain errors. You are
@@ -79,7 +79,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="ip-rights">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Intellectual property</h2>
           <p>
             We (or our licensors) own our platform, code, designs, and brand. You
@@ -88,7 +88,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="warranties">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Disclaimers and warranties</h2>
           <p>
             Except as explicitly stated, services are provided “as is” without
@@ -97,7 +97,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="liability">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Limitation of liability</h2>
           <p>
             To the maximum extent permitted by law, neither party will be liable for
@@ -107,7 +107,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="governing-law">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Governing law and disputes</h2>
           <p>
             These terms are governed by the laws of Kenya, without regard to
@@ -116,7 +116,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-12" id="kenya-specific">
+        <FadeIn className="mb-12">
           <h2 className="text-2xl">Kenya‑specific notices</h2>
           <p>
             We comply with Kenya laws, including the Computer Misuse and Cybercrimes
@@ -125,7 +125,7 @@ export default function TermsPage() {
           </p>
         </FadeIn>
 
-        <FadeIn className="mb-2" id="contact">
+        <FadeIn className="mb-2">
           <h2 className="text-2xl">Contact</h2>
           <p>
             For questions about these terms, contact <a className="underline" href="mailto:legal@techx.ke">legal@techx.ke</a>.

@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { ProjectListSlice } from "@/types/content";
+import { ProjectListSlice, Project } from "@/types/content";
 import { Bounded } from "@/components/Bounded";
 import { RevealText } from "@/components/RevealText";
 import { RichText } from "@/components/RichText";
@@ -44,10 +44,21 @@ const ProjectList: FC<ProjectListProps> = ({ slice, index = 0 }) => {
         <div className="mt-12 grid grid-cols-1 gap-12">
           {slice.primary.projects.map((item, index) => {
             if (item.project) {
+              const normalized: Project = {
+                uid: item.project.uid,
+                title: item.project.title,
+                project_image: item.project.image,
+                hero_image: undefined,
+                description: item.project.description,
+                category: item.project.category,
+                live_link: item.project.live_link,
+                technologies: item.project.technologies,
+                meta_image: undefined,
+              };
               return (
                 <ProjectDisplay
                   key={item.project.id || index}
-                  project={item.project}
+                  project={normalized}
                 />
               );
             }

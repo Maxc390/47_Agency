@@ -2,7 +2,7 @@ import { type Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getHomepage, asImageSrc } from "@/lib/content";
 import { components } from "@/slices";
-import { Slice, ProjectListSlice } from "@/types/content";
+import { ProjectListSlice } from "@/types/content";
 
 export default async function Page() {
   const page = await getHomepage().catch(() => notFound());
