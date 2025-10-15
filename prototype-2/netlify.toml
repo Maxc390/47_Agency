@@ -1,0 +1,14 @@
+[build]
+  base = "."
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: speed up cold builds by skipping telemetry and enforcing ci mode
+[build.environment]
+  NEXT_TELEMETRY_DISABLED = "1"
+  CI = "true"
+
+
