@@ -1,0 +1,14 @@
+[build]
+  base = "prototype-2"
+  command = "CI='' npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "22.20.0"
+  NEXT_TELEMETRY_DISABLED = "1"
+  NEXT_PRIVATE_TARGET = "server"
+
+
