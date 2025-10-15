@@ -1,0 +1,50 @@
+{
+  "name": "tech-x-ke",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:enhanced": "./scripts/dev/dev-clean.sh clean-start",
+    "dev:stable": "./scripts/dev/dev-clean.sh start-stable",
+    "dev:kill": "./scripts/dev/dev-clean.sh kill",
+    "dev:reset": "./scripts/dev/dev-clean.sh clean",
+    "dev:info": "./scripts/dev/dev-clean.sh info",
+    "dev:mjs": "node ./scripts/dev/dev-manager.mjs clean-start",
+    "dev:clean": "node scripts/clean-dev.js",
+    "clean": "node scripts/cache-manager.js clean",
+    "clean:cache": "node scripts/cache-manager.js clean-cache",
+    "clean:build": "node scripts/cache-manager.js clean-build",
+    "cache:check": "node scripts/cache-manager.js check",
+    "cache:size": "node scripts/cache-manager.js size",
+    "cache:css": "node scripts/cache-manager.js css"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
+    "next": "^15.5.5",
+    "next-view-transitions": "^0.3.4",
+    "nodemailer": "^6.9.13",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,6 @@
+- make a contact us page for the web app
+- change the content to align with what we want for techx
+- remove all the images
+- remove the video from the home page -> replace with a contact form component
+- have all fragrances as child projects on one project navlink
+- have our story page not about page

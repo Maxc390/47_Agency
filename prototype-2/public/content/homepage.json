@@ -1,0 +1,193 @@
+{
+  "meta_title": "TechX KE - Digital Agency",
+  "meta_description": "Challenges to intuitive solutions.",
+  "meta_image": {
+    "alt": "TechX KE - Digital Agency"
+  },
+  "slices": [
+    {
+      "slice_type": "hero",
+      "variation": "default",
+      "primary": {
+        "heading": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "We can do it better.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Whether it's automating complex systems, improving user experiences, or integrating AI — we build products that scale.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "button": [
+          {
+            "text": "Let's work together",
+            "url": "mailto:techx.agency@gmail.com",
+            "variant": "Secondary"
+          }
+        ],
+        "image": {
+          "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&h=800&fit=crop",
+          "alt": "TechX team working on digital solutions"
+        }
+      }
+    },
+    {
+      "slice_type": "project_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "Our Work",
+        "heading": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Projects That Make an Impact",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "From web applications to automation systems, we deliver solutions that drive real business value.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "projects": [
+          {
+            "project": {
+              "id": "afri-merkabah",
+              "uid": "afri-merkabah",
+              "title": "AfriMerkabah",
+              "category": "Tourism Platform",
+              "image": {
+                "url": "/images/afri-merkabah.png",
+                "alt": "AfriMerkabah tourism platform dashboard"
+              },
+              "description": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Modern tourism platform connecting travelers with authentic Kenyan experiences - from wildlife safaris to cultural immersion.",
+                    "spans": []
+                  },
+                  "direction": "ltr"
+                }
+              ],
+              "technologies": ["Next.js 15", "React 19", "Django 5.2", "PostgreSQL", "PostGIS"],
+              "live_link": {
+                "text": "View It Live",
+                "url": "https://www.afrimerkabah.com",
+                "variant": "Secondary"
+              }
+            }
+          },
+          {
+            "project": {
+              "id": "rada-ui",
+              "uid": "rada-ui",
+              "title": "RADA",
+              "category": "NLP Platform",
+              "image": {
+                "url": "/images/rada-ui.png",
+                "alt": "RADA user interface dashboard"
+              },
+              "description": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Comprehensive UI for climate and weather data analysis with advanced NLP capabilities and text-to-speech integration.",
+                    "spans": []
+                  },
+                  "direction": "ltr"
+                }
+              ],
+              "technologies": ["Next.js 15", "React 19", "PyTorch", "TensorFlow", "spaCy"],
+              "live_link": {
+                "text": "View It Live",
+                "url": "https://88-rada.vercel.app",
+                "variant": "Secondary"
+              }
+            }
+          },
+          {
+            "project": {
+              "id": "the-hut",
+              "uid": "the-hut",
+              "title": "The Hut",
+              "category": "Portfolio Website",
+              "image": {
+                "url": "/images/the-hut-hero.png",
+                "alt": "The Hut portfolio landing"
+              },
+              "description": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "A refined portfolio experience with smooth transitions, strong typography and an elegant dark aesthetic.",
+                    "spans": []
+                  },
+                  "direction": "ltr"
+                }
+              ],
+              "technologies": ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS"],
+              "live_link": {
+                "text": "View It Live",
+                "url": "https://portfolio-hut.vercel.app/",
+                "variant": "Secondary"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "call_to_action",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "Ready to Start?",
+        "heading": [
+          {
+            "type": "heading2",
+            "content": {
+              "text": "Let's Build Something Amazing Together",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "body": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Ready to transform your ideas into reality? We'd love to hear about your project.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ],
+        "button": [
+          {
+            "text": "Start the conversation",
+            "url": "mailto:techx.agency@gmail.com",
+            "variant": "Primary"
+          }
+        ]
+      }
+    }
+  ]
+}

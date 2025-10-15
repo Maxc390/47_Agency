@@ -1,0 +1,49 @@
+{
+  "uid": "afri-merkabah",
+  "title": "AfriMerkabah",
+  "project_image": {
+    "url": "/images/afri-merkabah-home.png",
+    "alt": "AfriMerkabah tourism platform dashboard"
+  },
+  "hero_image": {
+    "url": "/images/afri-merkabah-home.png",
+    "alt": "AfriMerkabah tourism platform hero"
+  },
+  "description": [
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "A modern tourism platform connecting travelers with authentic Kenyan experiences - from wildlife safaris to cultural immersion and eco-tourism adventures.",
+        "spans": []
+      },
+      "direction": "ltr"
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "Built with Next.js 15, React 19, and TypeScript on the frontend, with Django 5.2 and PostgreSQL on the backend. Features multi-language support, GIS integration, and JWT authentication.",
+        "spans": []
+      },
+      "direction": "ltr"
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "The platform includes smart search functionality, interactive maps powered by PostGIS, a complete booking system, and comprehensive admin panel for package and user management.",
+        "spans": []
+      },
+      "direction": "ltr"
+    }
+  ],
+  "category": "Tourism Platform",
+  "live_link": {
+    "text": "View Live Project",
+    "url": "https://www.afrimerkabah.com",
+    "variant": "Secondary"
+  },
+  "technologies": ["Next.js 15", "React 19", "TypeScript", "Django 5.2", "PostgreSQL", "PostGIS", "Tailwind CSS", "JWT"],
+  "meta_image": {
+    "url": "/images/afri-merkabah-meta.png",
+    "alt": "AfriMerkabah Adventures - TechX KE"
+  }
+}

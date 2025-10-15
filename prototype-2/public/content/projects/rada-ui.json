@@ -1,0 +1,49 @@
+{
+  "uid": "rada-ui",
+  "title": "RADA",
+  "project_image": {
+    "url": "/images/rada-ui.png",
+    "alt": "RADA user interface dashboard"
+  },
+  "hero_image": {
+    "url": "/images/rada-ui.png",
+    "alt": "RADA user interface hero"
+  },
+  "description": [
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "A comprehensive user interface for the RADA system, featuring natural language processing capabilities for climate and weather data analysis for Baringo.",
+        "spans": []
+      },
+      "direction": "ltr"
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "Built with Next.js 15, React 19, and TypeScript, featuring advanced NLP integration with text-to-speech capabilities, real-time weather forecasting, and intelligent alert systems.",
+        "spans": []
+      },
+      "direction": "ltr"
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "The system includes chat interfaces for natural language interaction, weather forecast visualization with charts, alert management, and speech synthesis for accessibility. Integrates with PyTorch and TensorFlow models for advanced NLP processing.",
+        "spans": []
+      },
+      "direction": "ltr"
+    }
+  ],
+  "category": "NLP Platform",
+  "live_link": {
+    "text": "View Live Project",
+    "url": "https://88-rada.vercel.app",
+    "variant": "Secondary"
+  },
+  "technologies": ["Next.js 15", "React 19", "TypeScript", "PyTorch", "TensorFlow", "spaCy", "NLTK", "Tailwind CSS", "Zustand", "NextAuth"],
+  "meta_image": {
+    "url": "/images/rada-ui-meta.png",
+    "alt": "RADA User Interface - TechX KE"
+  }
+}

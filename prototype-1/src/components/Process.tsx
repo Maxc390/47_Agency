@@ -1,7 +1,6 @@
 import React from 'react';
 import { useGsapReveal } from '../hooks/useGsapReveal';
 import type { WebContent } from '../hooks/useFetchContent';
-import { getIconByName } from '@/lib/icons';
 
 interface ProcessProps {
   data: WebContent['process'];

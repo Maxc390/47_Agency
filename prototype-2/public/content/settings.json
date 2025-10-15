@@ -1,0 +1,45 @@
+{
+  "site_title": "TechX KE",
+  "site_tagline": "Building Web Products & Designs That Matter",
+  "contact_email": "techx.agency@gmail.com",
+  "meta_description": "Building Web Products & Designs That Matter. TechX KE is a digital agency specializing in modern web applications, automation, and creative design.",
+  "fallback_og_image": {
+    "url": "/cote-royale-og-image.png",
+    "alt": "TechX KE - Digital Agency"
+  },
+  "navigation_link": [
+    {
+      "text": "Home",
+      "url": "/"
+    },
+    {
+      "text": "About",
+      "url": "/about"
+    },
+    {
+      "text": "Projects",
+      "url": "/projects"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "social_links": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/techx-ke",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/TechXS",
+      "icon": "github"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/techx_ke",
+      "icon": "twitter"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid": "the-hut",
+  "title": "The Hut",
+  "project_image": {
+    "url": "/images/the-hut-hero.png",
+    "alt": "The Hut portfolio landing"
+  },
+  "hero_image": {
+    "url": "/images/the-hut-hero.png",
+    "alt": "The Hut hero section"
+  },
+  "description": [
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "A refined portfolio experience showcasing selected works with smooth transitions, strong typography, and an elegant dark aesthetic.",
+        "spans": []
+      },
+      "direction": "ltr"
+    },
+    {
+      "type": "paragraph",
+      "content": {
+        "text": "Built with modern Next.js app router and performant front‑end patterns, emphasizing motion, accessibility, and responsive layout across devices.",
+        "spans": []
+      },
+      "direction": "ltr"
+    }
+  ],
+  "category": "Portfolio Website",
+  "live_link": {
+    "text": "View It Live",
+    "url": "https://portfolio-hut.vercel.app/",
+    "variant": "Secondary"
+  },
+  "technologies": [
+    "Next.js 15",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS"
+  ],
+  "meta_image": {
+    "url": "/images/the-hut-hero.png",
+    "alt": "The Hut – Portfolio"
+  }
+}
+
+
