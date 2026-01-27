@@ -42,9 +42,10 @@ export async function generateMetadata(): Promise<Metadata> {
   // Use your Prismic fallback or static files
   const ogImageUrl = settings.fallback_og_image && asImageSrc(settings.fallback_og_image)
     ? asImageSrc(settings.fallback_og_image)
-    : '/og-image.png';  // Your new static OG image in /app or /public
+    : '/icon.png';  // Your new static OG image in /app or /public
 
   return {
+    metadataBase: new URL('https://techxs.dpdns.org'),
     title: settings.site_title || "TechX KE - Digital Agency",
     description:
       settings.meta_description ||
@@ -54,11 +55,11 @@ export async function generateMetadata(): Promise<Metadata> {
     // but explicit is safer + supports custom paths
     icons: {
       icon: [
-        { url: '/favicon.ico' },          // Primary favicon
-        { url: '/og-image.png', type: 'image/png' },  // Optional high-res
+        { url: '/icon.ico' },          // Primary favicon
+        { url: '/icon.png', type: 'image/png' },  // Optional high-res
       ],
       apple: [
-        { url: '/og-image.png', sizes: '180x180', type: 'image/png' },
+        { url: '/icon.png', sizes: '180x180', type: 'image/png' },
       ],
       // shortcut: '/favicon.ico',  // Optional legacy
     },
@@ -70,7 +71,7 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "TechX KE",
       images: [
         {
-          url: ogImageUrl ??'/favicon.ico',
+          url: ogImageUrl ??'/icon.ico',
           width: 1200,
           height: 630,
           alt: "TechX KE - AI, Web Apps & Automation in Kenya",
@@ -85,7 +86,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: settings.site_title || "TechX KE",
       description: settings.meta_description || "...",
-      images: [ogImageUrl ?? '/favicon.ico'],
+      images: [ogImageUrl ?? '/icon.ico'],
     },
   };
 }

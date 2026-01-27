@@ -68,7 +68,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: page.meta_description,
       url: siteUrl,
       siteName: 'TechX KE',
-      images: [{ url: asImageSrc(page.meta_image) ?? `${siteUrl}/og-image.png` }], // Fallback to a default OG image
+      images: [{ url: asImageSrc(page.meta_image) ?? `${siteUrl}/icon.png` }], // Fallback to a default OG image
       locale: 'en_KE',
       type: 'website',
     },
