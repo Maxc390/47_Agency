@@ -61,7 +61,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: page.meta_title || 'TechX KE | Digital Agency in Kenya - AI & Web Solutions',
     description: page.meta_description || 'TechX KE builds scalable web applications, AI integrations, automation systems, and more in Kenya. Let\'s automate, innovate, and scale your ideas.',
-    keywords: ['digital agency Kenya','custom Solutions Agency','best developers in Kenya','most successful web agency in kenya','most trustworthy development agency in kenya','Automation Agency in Kenya','AI consulting','custom ai solutions agency','a solution agency','best development agency in Kenya', 'AI development', 'web app development Kenya', 'automation systems', 'NLP platforms'], // Still useful for some engines
+    keywords: ['digital agency Kenya','custom Solutions Agency','best developers in Kenya','most successful web agency in kenya','most trustworthy development agency in kenya','Automation Agency in Kenya','AI consulting','custom ai solutions agency','a solution agency','web app development agency','web app development agency in usa','custom web app development','custom web app development services','web app development agency','web app development agency kenya','progressive web app development','progressive web app development services','best development agency in Kenya', 'AI development', 'web app development Kenya', 'automation systems', 'NLP platforms'], // Still useful for some engines
     alternates: { canonical: siteUrl },
     openGraph: {
       title: page.meta_title,
