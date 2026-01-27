@@ -42,14 +42,41 @@ export default async function Page() {
   );
 }
 
+//export async function generateMetadata(): Promise<Metadata> {
+  //const page = await getHomepage().catch(() => notFound());
+//
+//  return {
+  //  title: page.meta_title,
+   // description: page.meta_description,
+   // openGraph: {
+   //   images: [{ url: asImageSrc(page.meta_image) ?? "" }],
+ //   },
+//  };
+//}
+
+
 export async function generateMetadata(): Promise<Metadata> {
   const page = await getHomepage().catch(() => notFound());
-
+  const siteUrl = 'https://techxs.dpdns.org';
   return {
-    title: page.meta_title,
-    description: page.meta_description,
+    title: page.meta_title || 'TechX KE | Digital Agency in Kenya - AI & Web Solutions',
+    description: page.meta_description || 'TechX KE builds scalable web applications, AI integrations, automation systems, and more in Kenya. Let\'s automate, innovate, and scale your ideas.',
+    keywords: ['digital agency Kenya', 'AI development', 'web app development Kenya', 'automation systems', 'NLP platforms'], // Still useful for some engines
+    alternates: { canonical: siteUrl },
     openGraph: {
-      images: [{ url: asImageSrc(page.meta_image) ?? "" }],
+      title: page.meta_title,
+      description: page.meta_description,
+      url: siteUrl,
+      siteName: 'TechX KE',
+      images: [{ url: asImageSrc(page.meta_image) ?? `${siteUrl}/og-image.jpg` }], // Fallback to a default OG image
+      locale: 'en_KE',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: page.meta_title,
+      description: page.meta_description,
+      images: [asImageSrc(page.meta_image) ?? ''],
     },
   };
 }
